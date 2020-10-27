@@ -1,8 +1,93 @@
-li {
-    display:inline;
+html, body {
+    margin:0;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.icon {
-    max-width: 1em;
-    height: auto;
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+
+#nav {
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+
+#nav a.toppic {
+    width:20px;
+    height:20px;
+    background:grey;
+}
+
+#nav a.circle {
+   
+    border-radius: 50%;
+}
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchcontainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchbar {
+    padding-top:10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width:600px;
+    border-radius: 20px;
+    border: 1px solid #c4c4c4;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5 10 5 10;
+    border: none;
+}
+
+#language {
+    text-align: center;
+}
+
+#footer {
+    width: 100%;    
+    border-top: 1px solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: lightgrey;
+}
+
+#footer a {
+    margin-left: 20px;
 }

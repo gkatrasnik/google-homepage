@@ -1,59 +1,45 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
+    <head>
+        <title>GOOGLE CLONE</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
 
-<head>   
-<link href="style.css" type="text/css" rel="stylesheet">
-</head>
-
-<body>
-    <div>
-        <div class="navbar">
-            <div class=links>
-                <ul>
-                    <li>gmail</li>
-                    <li>Slike</li>
-                    <li><img src="https://www.flaticon.com/svg/static/icons/svg/80/80975.svg" alt="cubes icon" class="icon"></li>
-                    <li><button>Prijava</button></li>
-                </ul>
-            </div>
+    <body>
+        <div id="nav">
+            <a class="toplink">Gmail</a>
+            <a class="toplink">Slike</a>
+            <a class="toppic"></a>
+            <a class="toppic circle"></a>
         </div>
 
-
-        <div class="main">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-
-                <form>
-                    <input type="text" id="search-bar" name="search"><br>
-                    <input type="submit" value="Iskanje Google">
-                    <input type="submit" value="Klik na srečo">
-                </form>
-
-            <p>Google je na voljo v: <a href="">English</a></p>
-
-        </div>    
-
-
-        <div class="footer">
-            <div>
-                <p>Slovenija</p>
+        <div id="middle">
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
-            <div>
-                <ul class="navbar-levo">
-                    <li>Oglaševanje</li>
-                    <li>Posel</li>
-                    <li>Predstavitev</li>
-                    <li>Kako deluje Iskanje Google</li>
-                </ul>
 
-                <ul class="navbar-desno">
-                    <li>Zasebnost</li>
-                    <li>Pogoji</li>
-                    <li>Nastavitve</li>
-                </ul>
-            </div>
+                <div id="searchcontainer">
+                    <input id="searchbar" type="text">
+
+                    </input>
+                </div>
+
+                <div id="buttons">
+                    <input type="submit" value="Iskanje Google" class="button">
+                    <input type="submit" value="Klik na Srečo" class="button">
+                </div>
+        
+                <div id="language">
+                    <p>Google je na voljo v: <a href="">English</a></p>
+                </div>
         </div>
-    </div>
-</body>
+        
 
+        <div id="footer">
+            <a>Oglaševanje</a>
+            <a>Posel</a>
+            <a>Predstavitev</a>
+            <a>Kako deluje iskanje Google</a>
+        </div>
+    </body>
 </html>
